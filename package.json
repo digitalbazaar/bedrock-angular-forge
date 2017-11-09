@@ -1,6 +1,6 @@
 {
   "name": "bedrock-angular-forge",
-  "version": "1.0.0",
+  "version": "1.0.1-0",
   "description": "Provides dependencies and configuration for angular-forge.",
   "repository": {
     "type": "git",
