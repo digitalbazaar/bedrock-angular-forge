@@ -1,0 +1,28 @@
+{
+  "name": "bedrock-angular-forge",
+  "version": "0.0.1",
+  "description": "Provides dependencies and configuration for angular-forge.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-angular-forge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-angular-forge/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-angular-forge#readme",
+  "dependencies": {
+    "node-forge": "~0.7.1"
+  },
+  "bedrock": {
+    "browserDependencies": "all",
+    "systemjs": {
+      "packages": {
+        "node-forge": {
+          "map": {
+            "crypto": "@empty"
+          }
+        }
+      }
+    }
+  }
+}
